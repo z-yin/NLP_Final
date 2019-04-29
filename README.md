@@ -14,6 +14,6 @@ weka.classifiers.meta.FilteredClassifier -F "weka.filters.MultiFilter -F \"weka.
 ## Dataset
 We have one training dataset and one test set for final test. The dataset is already processed by Excel to meet the requirement of dataset for weka.
 ## Test Option
-Please tick the "Supplied test set" option to choose the test for testing.
+Please tick the "Supplied test set" option to choose the test for testing. For cross validation, please tick the "Cross-validation" with specified number of folds.
 ## Memory Usage
 It's better to set the memory not too small in weka. 4GB works for us.
